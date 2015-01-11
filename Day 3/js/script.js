@@ -144,6 +144,30 @@ var quiz3 = 70;
 var average = (quiz1 + quiz2 + quiz3) /3;
 console.log(average);
 
+// Concatenation - combining text strings
+// use the + sign for text and not just numbers
+
+var firstName = "Kermit";
+var lastName = "The Frog";
+
+// Concatenate first and last name in to full name
+var fullName = firstName +" "+ lastName;
+
+console.log(fullName +" is my favorite muppet");
+
+var d = "6";
+var e = "7";
+
+var combine = d+e;
+console.log(combine);
 
 
+// Constant values are always uppercase
+var PI = 3.14;
 
+// Round to a decimal place
+// toFixed(#) - # is how many decimal places wanted
+
+var num = 5.6734255;
+num = num.toFixed(2);
+console.log(num);
