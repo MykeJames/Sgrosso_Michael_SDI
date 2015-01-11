@@ -98,6 +98,27 @@ console.log(counter);
 counter *=4; // counter = counter *4
 console.log(counter);
 
+// String - any text variable
+// "is used at the beginning and end of the string"
+// Used to distinguish between variable name and random text
+// single quotes ' double quotes " are both used, BUT MUST MATCH
+
+var kermit = "Light Green";
+
+var frogName = "kermit";
+console.log(frogName);
+console.log(kermit);
+
+// Double quote or single quote?
+// can use an escaping character \ backslash in front of the appostrophe
+
+var phrase = 'I don\'t know!';
+console.log(phrase);
+
+// Multi-lines by using \n - new line character
+var phrase2 = "I don't know! \n You never know!";
+console.log(phrase2);
+
 
 
 
