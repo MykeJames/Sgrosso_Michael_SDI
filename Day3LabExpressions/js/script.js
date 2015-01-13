@@ -1,7 +1,7 @@
 /*
  Michael Sgrosso FSS# 63757
  1/101/2015
- SDI
+ Campus SDI
  Day 3 Lab Expressions
  */
 
@@ -26,6 +26,7 @@ var sparkySlices = (slicesPerPie * pizzasOrdered)%numberOfPeople;
 console.log("Sparky got" +" "+ sparkySlices +" "+ "slices of pizza.");
 
 
+
 // Average shopping bill
 // Calculate the average cost of shopping for the last five weeks
 
@@ -46,8 +47,6 @@ avgSpentWeek = avgSpentWeek.toFixed(3);
 
 // Display total amount spent and average spent per week
 console.log("You have spent a total	of $" + totalSpent + " on groceries over 5 weeks. That is an average of $" + avgSpentWeek + " per week");
-
-
 
 // Discounts
 // Declare and define variables
