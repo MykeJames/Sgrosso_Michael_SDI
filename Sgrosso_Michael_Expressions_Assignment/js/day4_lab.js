@@ -8,7 +8,7 @@ Day 4 Lab Expression Assignment
 
 //alert("Testing for html connection");
 
-// Blood alcohol content calculator
+// Blood Alcohol Content calculator
 
 // Define and declare variables
 // Prompt user for required information - ( Number of drinks, time drinking, users weight in pounds)
@@ -26,6 +26,11 @@ bac /= userData[1]; // division equals
 
 bac -= (userData[2] * 0.015); // minus equals
 
+// Limit result to 2 decimal places
+bac = bac.toFixed(2);
+
+// Return data entered and result
+console.log("You have consumed " + drinkQty + " drinks over a period of " + hours + " hours \n Your Blood Alcohol Content is approximately " + bac + " You should NOT drive with a BAC above 0.05");
 
 
 
