@@ -32,6 +32,23 @@ bac = bac.toFixed(2);
 // Return data entered and result
 console.log("You have consumed " + drinkQty + " drinks over a period of " + hours + " hours \n Your Blood Alcohol Content is approximately " + bac + " You should NOT drive with a BAC above 0.05");
 
+/*
+ Test scenarios:
+
+ I entered 2 for How many drinks, 3.5 for how many hours and 165 for weight in pounds,	my calculator gave me:
+ "You have consumed 2 drinks over a period of 3.5 hours
+ Your Blood Alcohol Content is approximately 0.02 You should NOT drive with a BAC above 0.05"
+
+
+ I entered 3 for How many drinks, 4 for how many hours and 165 for weight in pounds, my calculator gave me:
+ "You have consumed 3 drinks over a period of 4 hours
+ Your Blood Alcohol Content is approximately 0.06 You should NOT drive with a BAC above 0.05"
+
+
+ I entered 6 for How many drinks, 2 for how many hours and 187 for weight in pounds, my calculator gave me:
+ "You have consumed 6 drinks over a period of 2 hours
+ Your Blood Alcohol Content is approximately 0.17 You should NOT drive with a BAC above 0.05"
+ */
 
 
 
