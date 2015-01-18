@@ -22,7 +22,14 @@ var loanAmt     = prompt("Please enter the loan amount in US dollars"); // promp
             console.log("Your entry is invalid, reload page and start again") // second invalid entry console.log
     }
 } else {
-    
+    var interestRate = prompt("Please enter the interest rate as a percent"); // prompt for user input
+    if (interestRate === "" || interestRate === NaN) { //validation for number and entry
+        interestRate = prompt("Please enter a valid number"); // reprompt for invalid entry
+        if ((interestRate === "" || loanAmt === NaN)) { //revalidate
+            console.log("Your entry is invalid, reload page and start again") // second invalid entry console.log
+        } else {
+            
+
 
 
 
