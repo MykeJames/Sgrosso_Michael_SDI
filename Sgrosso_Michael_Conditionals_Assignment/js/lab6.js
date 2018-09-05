@@ -9,7 +9,7 @@ Day 6 Lab Conditionals Assignment
 
 // Auto loan calculator
 
-// define vaiablesfor calculations
+// define vaiables for calculations
 var num1;
 var num2;
 var payment;
